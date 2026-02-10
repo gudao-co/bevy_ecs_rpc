@@ -22,5 +22,5 @@ pub trait Rpc {
     fn reg_event<E: RpcEvent>(&mut self);
     fn snapshot(&mut self) -> &[u8];
     fn clear(&mut self);
-    fn data(&self) -> &[u8];
+    fn data(&self) -> &Vec<u8>;
 }

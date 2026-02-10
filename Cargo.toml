@@ -1,6 +1,6 @@
 [package]
 name = "bevy_ecs_rpc"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Script User <dev@gudao.co>"]
 edition = "2024"
 description = "Bevy ECS RPC serialization"

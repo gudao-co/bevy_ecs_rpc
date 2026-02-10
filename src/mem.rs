@@ -129,7 +129,7 @@ impl Rpc for RpcMem {
         self.buf.clear();
     }
 
-    fn data(&self) -> &[u8] {
+    fn data(&self) -> &Vec<u8> {
         &self.buf
     }
 }
